@@ -36,7 +36,7 @@ def main():
 
     driver.quit()
 
-    with open('wikispeedruns-com-2026-10-31.json', 'w') as f:
+    with open('full_data.json', 'w') as f:
         json.dump(data, f)
 
 main()
