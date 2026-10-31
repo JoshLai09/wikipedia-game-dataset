@@ -24,6 +24,7 @@ To collect prompt IDs for all past daily challenges, I used a [web scraper Chrom
 <img width="100%" alt="Web scraper screenshot" src="https://github.com/user-attachments/assets/2069bf35-df14-419f-9888-0eb77a0f93ab" />
 
 I then used a [Selenium script](scraper.py) in Python to the scrape statistical data from the public [leaderboard page](https://wikispeedruns.com/leaderboard/1899?preset=ffa&offset=0) for each challenge. All data collected was from "First Attempt" mode, to reduce the effect of cheaters looking up the most efficient path. This data, along with the data in the .csv file, is stored in a [.json file](full_data.json).
+<img width="100%" alt="screenshot of leaderboard page" src="https://github.com/user-attachments/assets/0cbb0eff-c458-4bd4-b70b-10af281a3acf" />
 
 Any missing, erroneous, or buggy data was corrected and checked manually.
 
